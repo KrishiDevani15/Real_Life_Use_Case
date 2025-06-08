@@ -23,11 +23,21 @@ To run this application locally, you need to have Python installed on your machi
    ```
 
 3. **Install dependencies**:
-   It's recommended to use a virtual environment to manage dependencies.
+   It's recommended to use a uv to manage dependencies.
    ```bash
-   pip install streamlit
+   pip install uv
+   uv sync
    ```
-
+3. **Virtual Enviroment Activate**:
+   It's recommended to use a virtual environment to run project.
+   1.  **Mac OS**:
+   ```bash
+   source .venv/bin/activate 
+   ```
+   2.  **Window OS**:
+   ```bash
+   .venv/Scripts/activate 
+   ```
 ## 🚀 Usage
 
 Once you have installed the dependencies, you can run the app using:
